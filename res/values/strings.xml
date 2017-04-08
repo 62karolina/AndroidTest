@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Kyrsovaya</string>
+    <string name="lesson">Уроки</string>
+    <string name="tests">Тесты</string>
+    <string name="control">Контроль знаний</string>
+    <string name="entName">Введите имя</string>
+    <string name="theFistClass">Первый класс</string>
+    <string name="theSecondClass">Второй класс</string>
+    <string name="theThirdClass">Третий класс</string>
+    <string name="theFourthClass">Четвертый класс</string>
+    <string name="study_number">Изучаем числа</string>
+    <string name="showHelp">Прослушать по нажатию на картинку</string>
+    <string name="geometsricButton">Геометрические фигуры</string>
+    <string name="number100">Числа от 1 до 100</string>
+    <string name="unit">Единицы измерения</string>
+    <string name="sumSub">Сложение и вычитание</string>
+    <string name="mulDiv">Умножение и деление</string>
+    <string name="theEquals">Уравнения</string>
+    <string name="square">Площадь</string>
+    <string name="decimalDigit">Разряды чисел</string>
+    <string name="divCol">Деление и умножение</string>
+    <string name="proportion">Пропорции</string>
+</resources>

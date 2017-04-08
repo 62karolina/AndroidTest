@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lessons"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sss.carolina.kyrsovaya.LessonsActivity"
+    android:background="@drawable/background">
+
+    <Button
+        android:text="@string/theSecondClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/theFirst"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/theSecond"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:text="@string/theThirdClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/theSecond"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/theThird"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:text="@string/theFourthClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/theThird"
+        android:layout_alignRight="@+id/theThird"
+        android:layout_alignEnd="@+id/theThird"
+        android:layout_marginTop="21dp"
+        android:id="@+id/theFourth"
+        android:layout_alignLeft="@+id/theThird"
+        android:layout_alignStart="@+id/theThird"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:text="@string/theFistClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/theFirst"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

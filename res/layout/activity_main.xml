@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sss.carolina.kyrsovaya.MainActivity"
+    android:background="@drawable/background">
+
+    <Button
+        android:text="@string/lesson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lessonButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:text="@string/tests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lessonButton"
+        android:layout_marginTop="21dp"
+        android:id="@+id/tests"
+        android:layout_alignRight="@+id/lessonButton"
+        android:layout_alignEnd="@+id/lessonButton"
+        android:layout_alignLeft="@+id/lessonButton"
+        android:layout_alignStart="@+id/lessonButton"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:text="@string/control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/control"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/tests"
+        android:layout_alignRight="@+id/tests"
+        android:layout_alignEnd="@+id/tests"
+        android:layout_alignLeft="@+id/tests"
+        android:layout_alignStart="@+id/tests"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="@string/entName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/enterName"
+        android:textAlignment="viewStart"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_help"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/bHelp"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sss.carolina.kyrsovaya">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LessonsActivity" />
+        <activity android:name=".TestsActivity" />
+        <activity android:name=".ControlActivity" />
+        <activity android:name=".CategotyLessons.TheFirst" />
+        <activity android:name=".CategotyLessons.TheSecond" />
+        <activity android:name=".CategotyLessons.TheThird" />
+        <activity android:name=".CategotyLessons.TheFourth" />
+        <activity android:name=".CategotyLessons.TextLesson.Number_Lesson" />
+        <activity android:name=".CategotyLessons.TextLesson.GeometricActivity" />
+        <activity android:name=".CategotyLessons.TextLesson.Numbers100Activity" />
+        <activity android:name=".CategotyLessons.TextLesson.UnitActivity" />
+        <activity android:name=".CategotyLessons.TextLesson.SumSubActivity" />
+        <activity android:name=".CategotyLessons.TextLesson.DivMulActivity" />
+        <activity android:name=".CategotyLessons.TextLesson.EquationActivity" />
+        <activity android:name=".CategotyLessons.TextLesson.SquareActivity" />
+        <activity android:name=".CategotyLessons.TextLesson.DecimalActivity" />
+        <activity android:name=".CategotyLessons.TextLesson.DivColActivity" />
+        <activity android:name=".CategotyLessons.TextLesson.ProportionActivity" />
+        <activity android:name=".Test.TheFirstTestActivity" />
+        <activity android:name=".Test.TheSecondTestActivity" />
+        <activity android:name=".Test.TheThirdTestActivity" />
+        <activity android:name=".Test.TheFourthTestActivity"></activity>
+    </application>
+
+</manifest>
