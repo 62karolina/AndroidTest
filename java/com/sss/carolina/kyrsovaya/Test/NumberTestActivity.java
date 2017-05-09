@@ -6,13 +6,14 @@ import android.os.Bundle;
 
 import com.sss.carolina.kyrsovaya.R;
 
-public class TheThirdTestActivity extends AppCompatActivity {
+public class NumberTestActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_the_third_test);
+        setContentView(R.layout.activity_number_test);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+
 
     }
 }

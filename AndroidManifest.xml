@@ -36,7 +36,12 @@
         <activity android:name=".Test.TheFirstTestActivity" />
         <activity android:name=".Test.TheSecondTestActivity" />
         <activity android:name=".Test.TheThirdTestActivity" />
-        <activity android:name=".Test.TheFourthTestActivity"></activity>
+        <activity android:name=".Test.TheFourthTestActivity" />
+        <activity android:name=".Test.NumberTestActivity" />
+        <activity android:name=".ControlKnowlendge.TheFirstCKActivity" />
+        <activity android:name=".ControlKnowlendge.TheSecondCKActivity" />
+        <activity android:name=".ControlKnowlendge.TheThirdCKActivity" />
+        <activity android:name=".ControlKnowlendge.TheFourthCKActivity"></activity>
     </application>
 
 </manifest>

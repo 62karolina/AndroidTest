@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Kyrsovaya</string>
     <string name="lesson">Уроки</string>
-    <string name="tests">Тесты</string>
+    <string name="tests">Самоконтроль</string>
     <string name="control">Контроль знаний</string>
     <string name="entName">Введите имя</string>
     <string name="theFistClass">Первый класс</string>
@@ -20,4 +20,5 @@
     <string name="decimalDigit">Разряды чисел</string>
     <string name="divCol">Деление и умножение</string>
     <string name="proportion">Пропорции</string>
+    <string name="learnAdd">Учимся сложению</string>
 </resources>
