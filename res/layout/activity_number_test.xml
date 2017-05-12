@@ -17,16 +17,83 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            android:text="Сколько будет"
+            android:text="Правильно ли, что"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             tools:layout_editor_absoluteX="204dp"
-            tools:layout_editor_absoluteY="68dp"
-            android:layout_alignParentTop="true"
+            tools:layout_editor_absoluteY="68dp" />
+
+        <TextView
+            android:id="@+id/questionsTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="28dp" />
+            android:layout_marginTop="22dp"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonTrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/trueAnswer"
+            android:layout_marginRight="22dp"
+            android:layout_marginEnd="22dp"
+            android:layout_below="@+id/questionsTV"
+            android:layout_toLeftOf="@+id/questionsTV"
+            />
+
+        <Button
+            android:id="@+id/buttonFalse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/falseAnswer"
+            android:layout_alignBaseline="@+id/buttonTrue"
+            android:layout_alignBottom="@+id/buttonTrue"
+            android:layout_toRightOf="@+id/questionsTV"
+            android:layout_toEndOf="@+id/questionsTV"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp" />
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_ff"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/nextButton"
+            android:layout_alignEnd="@+id/questionsTV"
+            android:layout_alignRight="@+id/questionsTV"
+            android:layout_marginBottom="38dp"
+            android:text="Введите ваш ответ"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/trueEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/nextButton"
+            android:layout_alignLeft="@+id/buttonFalse"
+            android:layout_alignStart="@+id/buttonFalse"
+            android:layout_marginBottom="23dp"
+            android:ems="10"
+            android:inputType="number"
+            android:visibility="invisible" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

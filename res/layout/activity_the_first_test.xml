@@ -30,12 +30,12 @@
             android:id="@+id/geoTestB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/numberTestB"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="47dp"
             android:background="@android:color/transparent"
-            android:text="@string/geometsricButton"
-            android:textColor="@android:color/white"
-            android:layout_below="@+id/numberTestB"
-            android:layout_centerHorizontal="true" />
+            android:text="@string/learnSub"
+            android:textColor="@android:color/white" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -21,4 +21,7 @@
     <string name="divCol">Деление и умножение</string>
     <string name="proportion">Пропорции</string>
     <string name="learnAdd">Учимся сложению</string>
+    <string name="trueAnswer">Правильно</string>
+    <string name="falseAnswer">Не правильно</string>
+    <string name="learnSub">И вычитанию</string>
 </resources>

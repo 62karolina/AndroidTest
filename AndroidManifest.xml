@@ -41,7 +41,8 @@
         <activity android:name=".ControlKnowlendge.TheFirstCKActivity" />
         <activity android:name=".ControlKnowlendge.TheSecondCKActivity" />
         <activity android:name=".ControlKnowlendge.TheThirdCKActivity" />
-        <activity android:name=".ControlKnowlendge.TheFourthCKActivity"></activity>
+        <activity android:name=".ControlKnowlendge.TheFourthCKActivity" />
+        <activity android:name=".Test.SubActivity"></activity>
     </application>
 
 </manifest>
