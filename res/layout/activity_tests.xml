@@ -20,41 +20,41 @@
         android:text="@string/theFistClass"
         android:textColor="@android:color/white"
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/button4"
-        android:layout_alignEnd="@+id/button4" />
+        android:layout_alignRight="@+id/theThirdTestB"
+        android:layout_alignEnd="@+id/theThirdTestB" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/theSecondTestB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/theFirstTestB"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:background="@android:color/transparent"
         android:text="@string/theSecondClass"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/theFirstTestB"
+        android:layout_centerHorizontal="true" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/theThirdTestB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:text="@string/theThirdClass"
         android:textColor="@android:color/white"
-        android:layout_above="@+id/button5"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
-        android:layout_marginBottom="18dp" />
+        android:layout_below="@+id/theSecondTestB"
+        android:layout_alignLeft="@+id/theSecondTestB"
+        android:layout_alignStart="@+id/theSecondTestB"
+        android:layout_marginTop="27dp" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/theFourthTestB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="34dp"
         android:background="@android:color/transparent"
         android:text="@string/theFourthClass"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/theThirdTestB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp" />
 
 </RelativeLayout>

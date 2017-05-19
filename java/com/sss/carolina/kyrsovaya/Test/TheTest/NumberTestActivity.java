@@ -1,22 +1,15 @@
-package com.sss.carolina.kyrsovaya.Test;
+package com.sss.carolina.kyrsovaya.Test.TheTest;
 
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.sss.carolina.kyrsovaya.R;
-
-import org.w3c.dom.Text;
-
-import java.util.Random;
-import java.util.StringTokenizer;
 
 public class NumberTestActivity extends AppCompatActivity {
 
@@ -36,7 +29,7 @@ public class NumberTestActivity extends AppCompatActivity {
         falseButton = (Button)findViewById(R.id.buttonFalse);
         nextButton = (ImageButton)findViewById(R.id.nextButton);
         trueEditText = (EditText)findViewById(R.id.trueEditText);
-        invisibleTV = (TextView)findViewById(R.id.textView2);
+        invisibleTV = (TextView)findViewById(R.id.textView);
 
         final String symbol = "+";
 
@@ -52,6 +45,7 @@ public class NumberTestActivity extends AppCompatActivity {
 
                 TestLessons.textViewMessage(questionsTV, trueButton, falseButton, NumberTestActivity.this, invisibleTV, trueEditText, symbol);
 
+                trueEditText.setText("");
                 trueEditText.setVisibility(View.INVISIBLE);
                 invisibleTV.setVisibility(View.INVISIBLE);
 

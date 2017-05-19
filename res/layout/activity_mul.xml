@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context="com.sss.carolina.kyrsovaya.Test.TheTest.NumberTestActivity">
+    tools:context="com.sss.carolina.kyrsovaya.Test.TheTest.MulActivity">
 
     <RelativeLayout
-        android:layout_width="576dp"
-        android:layout_height="343dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -26,68 +27,66 @@
             android:textColor="@android:color/white"
             android:textSize="24sp"
             tools:layout_editor_absoluteX="204dp"
-            tools:layout_editor_absoluteY="68dp" />
-
+            tools:layout_editor_absoluteY="68dp"/>
         <TextView
-            android:id="@+id/questionsTV"
+            android:id="@+id/questionsTV3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textView3"
+            android:layout_below="@+id/textView6"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="22dp"
             android:textColor="@android:color/white"
-            android:textSize="30sp" />
+            android:textSize="30sp"  />
 
         <Button
-            android:id="@+id/buttonTrue"
+            android:id="@+id/buttonTrue3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/trueAnswer"
-            android:layout_alignBaseline="@+id/buttonFalse"
-            android:layout_alignBottom="@+id/buttonFalse"
-            android:layout_toLeftOf="@+id/nextButton"
-            android:layout_toStartOf="@+id/nextButton" />
+            android:layout_alignBaseline="@+id/buttonFalse3"
+            android:layout_alignBottom="@+id/buttonFalse3"
+            android:layout_toLeftOf="@+id/nextButton3"
+            android:layout_toStartOf="@+id/nextButton3" />
 
         <Button
-            android:id="@+id/buttonFalse"
+            android:id="@+id/buttonFalse3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/falseAnswer"
             android:layout_centerVertical="true"
-            android:layout_toRightOf="@+id/nextButton"
-            android:layout_toEndOf="@+id/nextButton" />
-
-        <ImageButton
-            android:id="@+id/nextButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@android:drawable/ic_media_ff"
-            android:layout_below="@+id/trueEditText"
-            android:layout_centerHorizontal="true" />
+            android:layout_toRightOf="@+id/nextButton3"
+            android:layout_toEndOf="@+id/nextButton3"  />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
             android:text="Введите ваш ответ"
             android:textColor="@android:color/white"
             android:visibility="invisible"
-            android:layout_alignBaseline="@+id/trueEditText"
-            android:layout_alignBottom="@+id/trueEditText"
-            android:layout_toLeftOf="@+id/nextButton"
-            android:layout_toStartOf="@+id/nextButton" />
+            android:layout_alignBaseline="@+id/trueEditText3"
+            android:layout_alignBottom="@+id/trueEditText3"
+            android:layout_toLeftOf="@+id/nextButton3"
+            android:layout_toStartOf="@+id/nextButton3" />
 
         <EditText
-            android:id="@+id/trueEditText"
+            android:id="@+id/trueEditText3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="number"
             android:visibility="invisible"
-            android:layout_below="@+id/buttonFalse"
-            android:layout_alignLeft="@+id/buttonFalse"
-            android:layout_alignStart="@+id/buttonFalse" />
+            android:layout_below="@+id/buttonFalse3"
+            android:layout_alignLeft="@+id/buttonFalse3"
+            android:layout_alignStart="@+id/buttonFalse3"  />
 
+        <ImageButton
+            android:id="@+id/nextButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_ff"
+            android:layout_below="@+id/trueEditText3"
+            android:layout_centerHorizontal="true" />
     </RelativeLayout>
-
 </android.support.constraint.ConstraintLayout>

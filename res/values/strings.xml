@@ -24,4 +24,5 @@
     <string name="trueAnswer">Правильно</string>
     <string name="falseAnswer">Не правильно</string>
     <string name="learnSub">И вычитанию</string>
+    <string name="learnMul">Изучаем таблицу умножения</string>
 </resources>

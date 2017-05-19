@@ -60,7 +60,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/enterName"
-        android:textAlignment="viewStart"
         android:textStyle="normal|bold"
         android:textAllCaps="true"
         android:textColor="@android:color/white" />

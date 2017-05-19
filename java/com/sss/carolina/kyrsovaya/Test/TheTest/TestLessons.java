@@ -1,4 +1,4 @@
-package com.sss.carolina.kyrsovaya.Test;
+package com.sss.carolina.kyrsovaya.Test.TheTest;
 
 import android.content.Context;
 import android.util.Log;
@@ -30,7 +30,13 @@ public class TestLessons {
         number = randomSumm(num1, num2, symbol);
 
 
-        textView.setText(num1 + " " + symbol + " " + num2 + " = " + num3);
+
+        if(symbol == "-"){
+            if(num1 < num2){
+                num1 += num2;
+                textView.setText(num1 + " " + symbol + " " + num2 + " = " + num3);
+            }
+        }else textView.setText(num1 + " " + symbol + " " + num2 + " = " + num3);
 
         trueB.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +70,23 @@ public class TestLessons {
 
             return result;
         }
+        if(symb == "-"){
+            if(number1 < number2){
+                number1 += number2;
+                result = number1 - number2;
+                return result;
+
+            }else {
+                result = number1 - number2;
+
+            return result;
+            }
+        }
+        if(symb == "*"){
+            result = number1 * number2;
+
+            return result;
+        }
 
 
         return result;
@@ -78,6 +101,7 @@ public class TestLessons {
             Toast.makeText(context, "Ваш ответ правильный", Toast.LENGTH_SHORT).show();
         }else
             Toast.makeText(context, "Ваш ответ не правильный", Toast.LENGTH_SHORT).show();
+
 
 
     }
