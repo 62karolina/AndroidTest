@@ -25,4 +25,9 @@
     <string name="falseAnswer">Не правильно</string>
     <string name="learnSub">И вычитанию</string>
     <string name="learnMul">Изучаем таблицу умножения</string>
+    <string name="sumThreeNumbers">Сложение трех чисел</string>
+    <string name="subThreeNumbers">И вычитание</string>
+    <string name="divTest">Изучаем деление</string>
+    <string name="noAnswer">Нет ответа</string>
+    <string name="enterAns">Ввести ответ</string>
 </resources>

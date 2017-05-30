@@ -1,4 +1,4 @@
-package com.sss.carolina.kyrsovaya.Test.TheTest;
+package com.sss.carolina.kyrsovaya.ControlKnowlendge;
 
 import android.content.Context;
 import android.util.Log;
@@ -11,14 +11,15 @@ import android.widget.Toast;
 import java.util.Random;
 
 /**
- * Created by carolina on 12.05.17.
+ * Created by carolina on 29.05.17.
  */
 
-public class TestLessons {
+public class QuestionsTheFirst {
+
     private static int num1, num2, num3, number;
 
     public static void textViewMessage(TextView textView, Button trueB, Button falseB, final Context context, final TextView textView1,
-                                       final EditText editText, final String symbol) {
+                                       final EditText editText, final int symbol) {
         Random rand = new Random();
 
         num1 = rand.nextInt(10);
@@ -31,12 +32,13 @@ public class TestLessons {
 
 
 
-        if(symbol == "-"){
+        if(symbol == 1){
             if(num1 < num2){
                 num1 += num2;
-                textView.setText(num1 + " " + symbol + " " + num2 + " = " + num3);
-            }else textView.setText(num1 + " " + symbol + " " + num2 + " = " + num3);
-        }else textView.setText(num1 + " " + symbol + " " + num2 + " = " + num3);
+                textView.setText(num1 + " - " + num2 + " = " + num3);
+            }else textView.setText(num1 + " - " + num2 + " = " + num3);
+
+        }else if (symbol == 2) textView.setText(num1 + " + " + num2 + " = " + num3);
 
         trueB.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,15 +64,15 @@ public class TestLessons {
         });
     }
 
-    private static int randomSumm(int number1, int number2, String symb){
+    private static int randomSumm(int number1, int number2, int symb){
         int result = 0;
 
-        if(symb == "+") {
+        if(symb == 2) {
             result = number1 + number2;
 
             return result;
         }
-        if(symb == "-"){
+        if(symb == 1){
             if(number1 < number2){
                 number1 += number2;
                 result = number1 - number2;
@@ -79,20 +81,15 @@ public class TestLessons {
             }else {
                 result = number1 - number2;
 
-            return result;
+                return result;
             }
-        }
-        if(symb == "*"){
-            result = number1 * number2;
-
-            return result;
         }
 
 
         return result;
     }
 
-    public static void answer(EditText editText, String symb, final Context context){
+    public static void answer(EditText editText, int symb, final Context context){
         int i;
 
 
@@ -105,4 +102,5 @@ public class TestLessons {
 
 
     }
+
 }

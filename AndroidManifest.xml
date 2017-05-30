@@ -43,7 +43,10 @@
         <activity android:name=".ControlKnowlendge.TheThirdCKActivity" />
         <activity android:name=".ControlKnowlendge.TheFourthCKActivity" />
         <activity android:name=".Test.TheTest.SubActivity" />
-        <activity android:name=".Test.TheTest.MulActivity"></activity>
+        <activity android:name=".Test.TheTest.MulActivity" />
+        <activity android:name=".Test.TheTest.SumThreeNumbActivity" />
+        <activity android:name=".Test.TheTest.SubThreeNumbActivity" />
+        <activity android:name=".Test.TheTest.DivActivity"></activity>
     </application>
 
 </manifest>

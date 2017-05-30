@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context="com.sss.carolina.kyrsovaya.Test.TheTest.SubActivity">
+    tools:context="com.sss.carolina.kyrsovaya.Test.TheTest.SumThreeNumbActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
         tools:layout_constraintTop_creator="1">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -42,36 +42,36 @@
             tools:layout_editor_absoluteY="68dp" />
 
         <TextView
-            android:id="@+id/questionsTV1"
+            android:id="@+id/questionsTV4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textView2"
+            android:layout_below="@+id/textView10"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="24dp"
             android:textColor="@android:color/white"
             android:textSize="30sp" />
 
         <Button
-            android:id="@+id/buttonTrue1"
+            android:id="@+id/buttonTrue4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_toLeftOf="@+id/nextButton1"
-            android:layout_toStartOf="@+id/nextButton1"
+            android:layout_toLeftOf="@+id/nextButton4"
+            android:layout_toStartOf="@+id/nextButton4"
             android:text="@string/trueAnswer" />
 
         <Button
-            android:id="@+id/buttonFalse1"
+            android:id="@+id/buttonFalse4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/buttonTrue1"
-            android:layout_alignBottom="@+id/buttonTrue1"
-            android:layout_toEndOf="@+id/nextButton1"
-            android:layout_toRightOf="@+id/nextButton1"
+            android:layout_alignBaseline="@+id/buttonTrue4"
+            android:layout_alignBottom="@+id/buttonTrue4"
+            android:layout_toEndOf="@+id/nextButton4"
+            android:layout_toRightOf="@+id/nextButton4"
             android:text="@string/falseAnswer" />
 
         <ImageButton
-            android:id="@+id/nextButton1"
+            android:id="@+id/nextButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -79,26 +79,26 @@
             app:srcCompat="@android:drawable/ic_media_ff" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/buttonTrue1"
-            android:layout_alignRight="@+id/buttonTrue1"
-            android:layout_alignTop="@+id/trueEditText1"
+            android:layout_alignEnd="@+id/buttonTrue4"
+            android:layout_alignRight="@+id/buttonTrue4"
+            android:layout_alignTop="@+id/trueEditText4"
             android:text="Введите ваш ответ"
             android:textColor="@android:color/white"
             android:visibility="invisible" />
 
         <EditText
-            android:id="@+id/trueEditText1"
+            android:id="@+id/trueEditText4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/buttonFalse1"
+            android:layout_below="@+id/buttonFalse4"
             android:layout_marginLeft="30dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="23dp"
-            android:layout_toEndOf="@+id/questionsTV1"
-            android:layout_toRightOf="@+id/questionsTV1"
+            android:layout_toEndOf="@+id/questionsTV4"
+            android:layout_toRightOf="@+id/questionsTV4"
             android:ems="10"
             android:inputType="number"
             android:visibility="invisible" />

@@ -47,6 +47,7 @@ public class SubActivity extends AppCompatActivity {
 
                 trueEditText.setVisibility(View.INVISIBLE);
                 invisibleTV.setVisibility(View.INVISIBLE);
+                trueEditText.setText("");
             }
         });
     }
