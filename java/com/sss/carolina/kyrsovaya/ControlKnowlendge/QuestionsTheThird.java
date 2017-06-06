@@ -37,7 +37,7 @@ public class QuestionsTheThird {
             if((num1 < num2)||(num1<num3)){
                 num1 += num2 + 10;
                 textView.setText(num1 + " - " + num2 + " - " + num3 + " = " + num4);
-            }else textView.setText(num1 + " " + symbol + " " + num2 + " " + symbol + " " + num3 + " = " + num4);
+            }else textView.setText(num1 + " " + " - " + " " + num2 + " " + " - " + " " + num3 + " = " + num4);
         }else textView.setText(num1 + " + " + num2 + " + " + num3 + " = " + num4);
 
         trueB.setOnClickListener(new View.OnClickListener() {

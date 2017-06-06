@@ -15,19 +15,16 @@
         android:id="@+id/theFirstTestB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
         android:background="@android:color/transparent"
         android:text="@string/theFistClass"
         android:textColor="@android:color/white"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/theThirdTestB"
-        android:layout_alignEnd="@+id/theThirdTestB" />
+        android:layout_alignLeft="@+id/theSecondTestB"
+        android:layout_alignStart="@+id/theSecondTestB" />
 
     <Button
         android:id="@+id/theSecondTestB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:background="@android:color/transparent"
         android:text="@string/theSecondClass"
         android:textColor="@android:color/white"
@@ -43,8 +40,7 @@
         android:textColor="@android:color/white"
         android:layout_below="@+id/theSecondTestB"
         android:layout_alignLeft="@+id/theSecondTestB"
-        android:layout_alignStart="@+id/theSecondTestB"
-        android:layout_marginTop="27dp" />
+        android:layout_alignStart="@+id/theSecondTestB" />
 
     <Button
         android:id="@+id/theFourthTestB"
@@ -54,7 +50,6 @@
         android:text="@string/theFourthClass"
         android:textColor="@android:color/white"
         android:layout_below="@+id/theThirdTestB"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="11dp" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
